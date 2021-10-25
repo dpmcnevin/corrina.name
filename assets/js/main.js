@@ -440,6 +440,8 @@ var main = (function($) { var _ = {
  							// Set background stuff.
 	 							s.$slideImage
 		 							.css('background-image', '')
+									.css('background-size', 'auto')
+									.css('backgroun-repeat', 'no-repeat')
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
 						// Caption.
