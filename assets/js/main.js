@@ -441,7 +441,7 @@ var main = (function($) { var _ = {
 	 							s.$slideImage
 		 							.css('background-image', '')
 									.css('background-size', 'auto')
-									.css('backgroun-repeat', 'no-repeat')
+									.css('background-repeat', 'no-repeat')
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
 						// Caption.
