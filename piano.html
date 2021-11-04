@@ -7,7 +7,7 @@ layout: default
   <!-- Header -->
   <header id="header">
     <h1>{{ site.header }}</h1>
-    <h2>{{ site.subheader }} | <a href="piano.html">Piano</a></h2>
+    <h2><a href="/">Art</a> | Piano</h2>
     {% if site.social %}
       <ul class="icons">
         {% if site.social.twitter_username and site.social.twitter_username != "" %}
@@ -31,12 +31,16 @@ layout: default
 
   <!-- Thumbnail -->
   <section id="thumbnails">
-    {% assign gallery = site.static_files | where: "image", true %}
-    {% for image in gallery %}
-      <article>
-        <a class="thumbnail" href="{{ site.gallery_dir }}/{{ image.name }}" data-position="{{ site.thumbnail_position }}"><img src="{{ site.gallery_dir }}/{{ image.name }}" alt="{{ image.basename }}" /></a>
-        <h2>{{ image.basename | replace: "_", " " }}</h2>
-      </article>
+    {% for video in site.piano %}
+    <article>
+      <a class="thumbnail"
+         href="{{ video.thumbnail }}"
+         data-video="{{ video.video }}"
+         data-position="{{ site.thumbnail_position }}">
+        <img src="{{ video.thumbnail }}" alt="{{ video.name }}" />
+      </a>
+      <h2>{{ video.name }} by {{ video.composer }}</h2>
+    </article>
     {% endfor %}
   </section>
 

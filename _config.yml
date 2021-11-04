@@ -12,7 +12,7 @@ copyright: "Corrina McNevin"
 # 1st heading of the site.
 header: "Corrina McNevin"
 # 2nd heading/sub heading of the website.
-subheader: "Art Gallery"
+subheader: "Art"
 # A description/bio of the website.
 bio: "Corrina McNevin"
 social:
@@ -32,6 +32,28 @@ social:
 gallery_dir: "gallery"
 # Any valid value of "background-position" CSS attribute.
 image_position: "left center"
+
+piano:
+  - name: “Venetian Boat Song” Op. 30 No. 6
+    composer: F. Mendelssohn
+    video: https://www.youtube.com/embed/6rKx2qPSyfE
+    thumbnail: piano/Venetian_Boat_Song.png
+  - name: To a Wild Rose
+    composer: Edward MacDowell
+    video: https://www.youtube.com/embed/em6i1zrDTa0
+    thumbnail: piano/To_a_Wild_Rose.png
+  - name: Italian Song
+    composer: Tchaikovsky
+    video: https://www.youtube.com/embed/OcOPRBlRJQU
+    thumbnail: piano/Italian_Song.png
+  - name: Two Bourees
+    composer: Bach
+    video: https://www.youtube.com/embed/oqhaBabIPTU
+    thumbnail: piano/Two_Bourees.png
+  - name: Viennese Sonatina
+    composer: Mozart
+    video: https://www.youtube.com/embed/6IHGqhI1_Qc
+    thumbnail: piano/Viennese_Sonatina.png
 
 ## Jekyll Configuration ##
 defaults:
