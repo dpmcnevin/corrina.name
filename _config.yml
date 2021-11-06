@@ -55,6 +55,20 @@ piano:
     video: https://www.youtube.com/embed/6IHGqhI1_Qc
     thumbnail: piano/Viennese_Sonatina.png
 
+sections:
+  - name: paintings
+    title: Paintings
+    url: /
+  - name: drawings
+    title: Drawings
+    url: drawings.html
+  - name: digital
+    title: Digital
+    url: /digital.html
+  - name: piano
+    title: Piano
+    url: /piano.html
+
 ## Jekyll Configuration ##
 defaults:
  - scope:

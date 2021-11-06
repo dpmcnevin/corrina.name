@@ -819,6 +819,11 @@
 			font-weight: 700;
 		}
 
+		#header #sections {
+			display: flex;
+			justify-content: space-evenly;
+		}
+
 /* Footer */
 
 	#footer {

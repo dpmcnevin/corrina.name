@@ -1,0 +1,12 @@
+<header id="header">
+    <h1>{{ site.header }}</h1>
+    <div id="sections">
+        {% for section in site.sections %}
+            {% if section.name == page.section %}
+                {{ section.title }}
+            {% else %}
+                <a href="{{section.url}}">{{ section.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</header>
